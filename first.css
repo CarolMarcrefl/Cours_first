@@ -1,0 +1,9 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #24098F, #230329); 
+}
+
+
+.center-image {
+    text-align: center;
+}
