@@ -8,7 +8,7 @@ body{
 }
 .cube { 
     width: 8%; 
-    margin-top: 15vh;
+    margin-top: 20vh;
 }
 
 
@@ -16,20 +16,21 @@ body{
     position: absolute;
     align-items: center;
     justify-content: space-between;
-    margin-right: 6vh;
+    margin-left: 35vh;
     display: flex;
 }
 .user{
-    width: 5%; 
-    height: 5%;
+    width: 25%; 
+    height: 25%;
 }
+
 .heart{
-    width: 5%; 
-    height: 5%;
+    width: 25%; 
+    height: 25%;
 }
 .home{
-    width: 5%; 
-    height: 5%;
+    width: 25%; 
+    height: 25%;
 }
 
 .games{
