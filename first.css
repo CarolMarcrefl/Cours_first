@@ -1,5 +1,4 @@
 body{
-    height: 100vh;
     background: linear-gradient(to bottom, #24098F, #230329); 
 }
 
@@ -7,3 +6,6 @@ body{
 .center-image {
     text-align: center;
 }
+img { 
+    width: 8%; 
+    }
