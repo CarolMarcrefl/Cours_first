@@ -29,23 +29,54 @@ body{
     width: 100%;
     height: 100%;
     background: transparent;
-    border: 0.5vh solid rgba(14, 194, 218, 0.2);
     outline: none;
     border-radius: 2vh;
-    color: #ffffff83;
+    background-color: rgba(251, 255, 10, 0.5);
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.25);
 }
 
 .input-box input::placeholder {
-color: #ffffff83;
+color: rgba(0, 0, 0, 0.8);
 }
 
 .input-box i{
     position: absolute;
-    color: #ffffff83;
+    color: rgba(0, 0, 0, 0.8);
     right: 5%;
     top: 25%;
 }
 
 .wrapper .remember-forgot{
     display: flex;
+    justify-content: space-between;
+    font-size: 2.5vh;
+    color: #ffffff83;
+    margin-bottom: 2.5vh;
+}
+
+.wrapper .bth{
+    width: 100%;
+    height: 5vh;
+    background-color: #79098F;
+    color: #FBFF0A;
+    border: none;
+    border-radius: 2vh;
+    margin-bottom: 2.5vh;
+
+}
+
+
+.wrapper .register-link{
+    text-align: center;
+    color: #ffffff83;
+}
+
+.register-link p a{
+    color: #79098F;
+    text-decoration: none;
+    font-weight: 2vh;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
 }
