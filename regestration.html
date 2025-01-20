@@ -1,8 +1,9 @@
 <html>
     <head>
         <title>Головоломки</title>
-        <link rel="stylesheet" href="first.css">
+        <link rel="stylesheet" href="regestration.css">
         <meta charset="utf-8">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
 
     <body>
@@ -12,9 +13,22 @@
                 <h1>Регистрация</h1>
                 <div class="input-box">
                     <input type="text" placeholder="Имя пользователя" required>
-                </div>
+                    <i class='bx bxs-user'></i>                </div>
                 <div class="input-box">
                     <input type="password" placeholder="Пароль" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Запомнить меня</label>
+                </div>
+
+                <button type="submit" class="bth">Войти</button>
+
+                <div class="register-link">
+                    <p>Нет аккаунта?
+                        <a href="#">Зарегестрироваться</a>
+                    </p>
                 </div>
             </form>
         </div>

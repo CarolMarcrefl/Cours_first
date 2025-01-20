@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to bottom, #24098F, #230329); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper h1{
+    text-align: center;
+    margin-bottom: 2.5vh;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 2.5vh;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 0.5vh solid rgba(14, 194, 218, 0.2);
+    outline: none;
+    border-radius: 2vh;
+    color: #ffffff83;
+}
+
+.input-box input::placeholder {
+color: #ffffff83;
+}
+
+.input-box i{
+    position: absolute;
+    color: #ffffff83;
+    right: 5%;
+    top: 25%;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+}
