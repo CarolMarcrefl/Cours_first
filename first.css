@@ -36,7 +36,14 @@ body{
 .games{
     display: grid;
     grid-template-columns: 50vh 50vh 50vh 50vh;
-    grid-template-rows: 45vh 45vh 45vh;
+    grid-template-rows: 45vh 45vh;
+    grid-auto-flow: column;
+    margin-bottom: 3vh;
+}
+.games_favorit{
+    display: grid;
+    grid-template-columns: 50vh 50vh 50vh 50vh;
+    grid-template-rows: 45vh 45vh;
     grid-auto-flow: column;
     margin-bottom: 3vh;
 }
