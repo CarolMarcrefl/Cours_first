@@ -7,30 +7,93 @@ body{
     text-align: center;
 }
 .cube { 
-    width: 5%; 
-    }
-
+    width: 8%; 
+    margin-top: 15vh;
+}
 
 
 .menue{
     position: absolute;
-    bottom: 2vh;;
     align-items: center;
     justify-content: space-between;
     margin-right: 6vh;
     display: flex;
 }
-
 .user{
     width: 5%; 
     height: 5%;
 }
-
 .heart{
     width: 5%; 
     height: 5%;
 }
-
 .home{
     width: 5%; 
-    height: 5%;}
+    height: 5%;
+}
+
+.games{
+    display: grid;
+    grid-template-columns: 50vh 50vh 50vh 50vh;
+    grid-template-rows: 45vh 45vh 45vh;
+    grid-auto-flow: column;
+    margin-bottom: 3vh;
+}
+.nonogram{
+    width: 40vh; 
+    height: 40vh;
+    border-radius: 10vh;
+}
+.sudocu{
+    width: 40vh; 
+    height: 40vh;
+    border-radius: 10vh;
+}
+.puzzle{
+    width: 40vh; 
+    height: 40vh;
+}
+.block{
+    width: 40vh; 
+    height: 40vh;
+}
+.numbers{
+    width: 40vh; 
+    height: 40vh;
+}
+.manjogi{
+    width: 40vh; 
+    height: 40vh;
+    border-radius: 10vh;
+}
+.cut{
+    width: 40vh; 
+    height: 40vh;
+    border-radius: 10vh;
+}
+.magic{
+    width: 40vh; 
+    height: 40vh;
+    border-radius: 10vh;
+}
+.words{
+    width: 40vh; 
+    height: 40vh;
+    border-radius: 10vh;
+}
+.cake{
+    width: 40vh; 
+    height: 40vh;
+    border-radius: 10vh;
+}
+.glass{
+    width: 40vh; 
+    height: 40vh;
+    border-radius: 10vh;
+}
+.solitaire{
+    width: 40vh; 
+    height: 40vh;
+    border-radius: 10vh;
+}
+
