@@ -5,32 +5,51 @@ body{
 .top-box{
     display: flex;
     align-items: stretch;
-    height: 10vh;
+    height: 15vh;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+    flex-basis: 10vw;
 }
-.center-image {
-    text-align: center;
-}
+
 .cube { 
-    width: 8%; 
+    width: 10%; 
+    margin-top: 2vh;
+    margin-right: 10vw;
 }
+
 .menue{
     align-items: center;
     justify-content: space-between;
-    margin-left: 35vh;
     display: flex;
+    height: 13vh;
+    margin-right: 10vw;
+    gap: 5vw;
 }
+
 .user{
-    width: 25%; 
-    height: 25%;
+    width: 160%; 
+    height: 100%;
 }
 
 .heart{
-    width: 25%; 
-    height: 25%;
+    width: 160%; 
+    height: 100%;
 }
 .home{
-    width: 25%; 
-    height: 25%;
+    width: 160%; 
+    height: 100%;
+}
+
+.contacs{
+    margin-top: 5vh;
+    background-color:#24098F;
+}
+.contacs .txt{
+    font-size: 145%;
+    color: antiquewhite;
+    margin-right: 5vw;
 }
 
 .games{
@@ -43,8 +62,9 @@ body{
     grid-template-columns: 40vh 40vh 40vh 40vh;
     grid-template-rows: 45vh 45vh;
     grid-auto-flow: column;
-    margin-bottom: 3vh;
+    margin-bottom: 7vh;
     margin-left: 7vh;
+    margin-right: 7vh;
 }
 .nonogram{
     width: 40vh; 
