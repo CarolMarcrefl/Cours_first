@@ -2,18 +2,18 @@ body{
     background: linear-gradient(to bottom, #24098F, #230329); 
 }
 
-
+.top-box{
+    display: flex;
+    align-items: stretch;
+    height: 10vh;
+}
 .center-image {
     text-align: center;
 }
 .cube { 
     width: 8%; 
-    margin-top: 20vh;
 }
-
-
 .menue{
-    position: absolute;
     align-items: center;
     justify-content: space-between;
     margin-left: 35vh;
@@ -34,18 +34,17 @@ body{
 }
 
 .games{
-    display: grid;
-    grid-template-columns: 50vh 50vh 50vh 50vh;
-    grid-template-rows: 45vh 45vh 45vh;
+    display: flex;
     grid-auto-flow: column;
     margin-bottom: 3vh;
 }
 .games_favorit{
     display: grid;
-    grid-template-columns: 50vh 50vh 50vh 50vh;
+    grid-template-columns: 40vh 40vh 40vh 40vh;
     grid-template-rows: 45vh 45vh;
     grid-auto-flow: column;
     margin-bottom: 3vh;
+    margin-left: 7vh;
 }
 .nonogram{
     width: 40vh; 
@@ -57,14 +56,13 @@ body{
 }
 .game_text{
     position: absolute;
-    top: 58%;
-    left: 50%;
+    top: 50%;
     transform: translate(-50%, 50%);
     display: none;
     color: rgb(248, 244, 243);
-    font-size: 200%;
-    left: 40%;
-    height: 12%;
+    font-size: 145%;
+    left: 65%;
+    height: 30%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; 
@@ -75,57 +73,25 @@ body{
 a:hover{
     opacity: 0.6; 
 }
-.sudocu{
-    width: 40vh; 
-    height: 40vh;
-    border-radius: 10vh;
+
+.games_r{
+    max-width: 10vw;
+    height:auto;
+    border-radius: 20%;
+    margin-left: 4vw;
 }
-.puzzle{
-    max-width: 90%; 
-    max-height: 90%;
+.numbers_puzzle{
+    background-color: #43024e6d;
+    border: #43024e;
+    border-radius: 30vw;
+    min-height: 30vh;
+    min-width: 100vh;
+    margin-bottom: 2vh;
 }
-.block{
-    width: 20vw; 
-    height: auto;
-}
-.numbers{
-    width: 40vh; 
-    height: 40vh;
-}
-.manjogi{
-    width: 40vh; 
-    height: 40vh;
-    border-radius: 10vh;
-}
-.cut{
-    width: 40vh; 
-    height: 40vh;
-    border-radius: 10vh;
-}
-.magic{
-    width: 40vh; 
-    height: 40vh;
-    border-radius: 10vh;
-}
-.words{
-    width: 40vh; 
-    height: 40vh;
-    border-radius: 10vh;
-}
-.cake{
-    width: 40vh; 
-    height: 40vh;
-    border-radius: 10vh;
-}
-.glass{
-    width: 40vh; 
-    height: 40vh;
-    border-radius: 10vh;
-}
-.solitaire{
-    width: 40vh; 
-    height: 40vh;
-    border-radius: 10vh;
+.numbers_puzzle .numbers_puzzle_text{
+    color: antiquewhite;
+    font-size: 170%;
+    margin-left: 7vw;
 }
 
 .picture{
