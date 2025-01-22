@@ -16,7 +16,7 @@ body{
     flex-basis: 10vw;}
 
 .cube { 
-    width: 10%; 
+    width: 20%; 
     margin-top: 2vh;
     margin-right: 10vw;}
 
@@ -29,15 +29,15 @@ body{
     gap: 5vw;}
 
 .user{
-    width: 160%; 
-    height: 100%;}
+    width: 40%; 
+    height: auto;}
 
 .heart{
-    width: 160%; 
-    height: 100%;}
+    width: 40%; 
+    height: auto}
 .home{
-    width: 160%; 
-    height: 100%;}
+    width: 40%; 
+    height: auto}
 
 .contacs{
     background-color:#230329;
@@ -92,8 +92,8 @@ a:hover{
     background-color: #43024e6d;
     border-radius: 10vw;
     min-height: 30vh;
-    max-width: 200vh;
-    min-width: 90vh;
+    max-width: 200vw;
+    min-width: 90vw;
     margin-right: 0;
     margin-bottom: 5vh;}
 .numbers_puzzle_text{
