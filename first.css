@@ -1,5 +1,9 @@
 body{
-    background: linear-gradient(to bottom, #24098F, #230329); }
+    background: linear-gradient(to bottom, #24098F, #230329); 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 /* maket*/
 .top-box{
     display: flex;
@@ -36,11 +40,12 @@ body{
     height: 100%;}
 
 .contacs{
-    margin-top: 5vh;
-    background-color:#24098F;
-    position: fixed;
+    background-color:#230329;
+    position: relative;
     bottom: 0;
-    width: 100vw;
+    width: 92.8vw;
+    height: 6vh;
+    padding: 3%;
 }
 .contacs .txt{
     font-size: 145%;
@@ -51,7 +56,9 @@ body{
 .games{
     display: flex;
     grid-auto-flow: column;
-    margin-bottom: 3vh;}
+    margin-bottom: 3vh;
+    margin-right: 0;
+}
 
 .nonogram{
     width: 40vh; 
@@ -83,10 +90,11 @@ a:hover{
     margin-left: 4vw;}
 .numbers_puzzle{
     background-color: #43024e6d;
-    border: #43024e;
     border-radius: 10vw;
     min-height: 30vh;
-    min-width: 100vh;
+    max-width: 200vh;
+    min-width: 90vh;
+    margin-right: 0;
     margin-bottom: 5vh;}
 .numbers_puzzle_text{
     color: antiquewhite;
