@@ -158,12 +158,56 @@ a:hover{
     display: flex;}
 .buttons>*:first-child {
     margin-right: 10%;}
-
 .favorit_games_profile{
     background-color: #43024e6d;
     border-radius: 10vw;
     min-height: 55%;
     min-width: 100vh;
     margin-bottom: 5vh;
-    margin-top: 17%;
+    margin-top: 17%;}
+
+/*cut*/
+.start_game{
+    display: flex;
+}
+.cut{
+    margin-top: 8%;
+    width: 100%;
+    opacity: 0.3; 
+    border-radius: 15%;}
+.start_game .btn_cut{
+    margin-top: 5%;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #79098F;
+    color: #FBFF0A;
+    font-size: 300%;
+    padding: 2.5% 5%;
+    border: none;
+    cursor: pointer;
+    border-radius: 2vh;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.text{
+    color: rgb(248, 244, 243);
+    padding: 2.5% 5%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    font-size: 120%;
+    background-color: #230329;
+    border-radius: 15vh;
 }
