@@ -73,7 +73,6 @@ color: rgba(0, 0, 0, 0.8);
 .register-link p a{
     color: #79098F;
     text-decoration: none;
-    font-weight: 2vh;
 }
 
 .register-link p a:hover{
