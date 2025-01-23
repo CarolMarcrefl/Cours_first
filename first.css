@@ -177,6 +177,8 @@ a:hover{
 /*cut*/
 .start_game{
     display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;
 }
 .cut{
     margin-top: 8%;
@@ -186,13 +188,10 @@ a:hover{
 .start_game .btn_cut{
     margin-top: 5%;
     position: absolute;
-    top: 80%;
-    left: 40%;
-    transform: translate(-50%, -50%);
     background-color: #79098F;
     color: #FBFF0A;
-    font-size: 300%;
-    padding: 2.5% 5%;
+    font-size: 4vw;
+    padding: 5vh 5vw;
     border: none;
     cursor: pointer;
     border-radius: 2vh;
@@ -215,7 +214,15 @@ a:hover{
     padding: 2.5% 5%;
     margin-bottom: 3%;
     margin-top: 5%;
-    font-size: 120%;
+    font-size: 5vh;
     background-color: #230329;
     border-radius: 15vh;
+}
+.om-nom{
+    display: flex;
+}
+.om-nom i{
+    color: rgb(246, 6, 6);
+    margin-top: 11vh;
+    margin-left: 2vw;
 }
