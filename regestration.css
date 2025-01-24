@@ -15,35 +15,34 @@ body{
 
 .wrapper h1{
     text-align: center;
-    margin-bottom: 2.5vh;
+    margin-bottom: 23px;
 }
 
 .wrapper .input-box{
     position: relative;
-    width: 100%;
-    height: 5vh;
-    margin-bottom: 2.5vh;
+    width: 260px;
+    height: 10px;
+    margin-bottom: 40px;
 }
 
 .input-box input{
-    width: 100%;
-    height: 100%;
+    width: 260px;
+    height: 30px;
     background: transparent;
     outline: none;
-    border-radius: 2vh;
-    background-color: rgba(251, 255, 10, 0.5);
-    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.25);
-}
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: rgba(251, 255, 10, 0.5);}
 
 .input-box input::placeholder {
-color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .input-box i{
     position: absolute;
     color: rgba(0, 0, 0, 0.8);
-    right: 5%;
-    top: 25%;
+    right: 8px;
+    top: 10px;
 }
 
 .wrapper .remember-forgot{
@@ -52,15 +51,19 @@ color: rgba(0, 0, 0, 0.8);
     font-size: 2.5vh;
     color: #ffffff83;
     margin-bottom: 2.5vh;
+    padding-right: 10px;
 }
-
+label{
+    display: flex;
+    gap: 10px;
+}
 .wrapper .bth{
-    width: 100%;
-    height: 5vh;
+    width: 260px;
+    height: 35px;
     background-color: #79098F;
     color: #FBFF0A;
     border: none;
-    border-radius: 2vh;
+    border-radius: 20px;
     margin-bottom: 2.5vh;
 
 }
@@ -77,4 +80,26 @@ color: rgba(0, 0, 0, 0.8);
 
 .register-link p a:hover{
     text-decoration: underline;
+}
+
+/* Медиа-запрос для мобильных устройств (экраны до 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 10px;
+    }
+    .gif-container img {
+        max-width: 300px;
+    }
+}
+
+/* Медиа-запрос для планшетов (экраны от 769px до 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        max-width: 80%;
+        padding: 15px;
+    }
+    .gif-container img {
+        max-width: 400px;
+    }
 }

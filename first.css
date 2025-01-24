@@ -1,6 +1,5 @@
 body{
     background: linear-gradient(to bottom, #24098F, #230329); 
-    width: 100%;
     margin: 0;
     padding: 0;
 
@@ -10,7 +9,7 @@ body{
     gap: 1vw;
 }
 .valuse .menue_text{
-    font-size: 200%;
+    font-size: 30px;
     color: antiquewhite;
 }
 li{
@@ -23,46 +22,52 @@ li{
 
 }
 .center-image .name{
-    font-size: 250%;
+    font-size: 40px;
     color: antiquewhite;}
 
 /* maket*/
 .top-box{
     display: flex;
     align-items: stretch;
-    height: 15vh;
+    height: 100px;
+    width: 90vw;
     flex-direction: row;
     margin-top: 2vh;
     margin-bottom: 5vh;
-    margin-left: 10vw;
-    z-index: 101;
-    flex-basis: 10vw;}
+    margin-left: 10px;
+    }
 
 .cube { 
-    width: 50%;
-    height: 50%; 
+    height: auto;
+    max-width: 5vw;
     margin-top: 2vh;
-    margin-right: 10vw;}
+ }
 
 .menue{
     align-items: center;
     justify-content: space-between;
     display: flex;
     height: 13vh;
-    z-index: 100;
     margin-right: 10vw;
-    gap: 4vw;}
+    z-index: 100;
+    gap: 10px;}
 
 .user{
-    width: 70%; 
-    height: auto;}
+    max-width: 5vw;
+    height: auto;
+    margin-left: none;
+    margin-right: 10px;
+}
 
 .heart{
-    width: 70%; 
+    max-width: 5vw;
+    margin-left: none;
+    margin-top: 5%;
     height: auto}
 .home{
-    width: 70%; 
-    z-index: 100;
+    max-width: 5vw;
+    margin-left: none;
+    margin-right: 30px;
     height: auto}
 
 .contacs{
@@ -175,7 +180,8 @@ a:hover{
     margin-top: 0;
     width: 100%;
     margin-bottom: 2vh;
-    margin-top: 30vh;}
+    z-index: 2;
+    margin-top: 300px;}
 .info .info_text{
     font-size:2vw;
     color: rgb(248, 244, 243);}
@@ -215,7 +221,6 @@ a:hover{
     align-items: center;
 }
 .cut{
-    margin-top: 8%;
     width: 100%;
     opacity: 0.3; 
     border-radius: 15%;}
@@ -265,7 +270,31 @@ a:hover{
     margin-left: 2vw;
     margin-right: 20px;
 }
-h1{
+.om-nom{
     color: antiquewhite;
-    height: 500%;
+    font-size: 100px;
+    margin-left: 20px;
+}
+
+
+/* Медиа-запрос для мобильных устройств (экраны до 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 5px;
+    }
+    .gif-container img {
+        max-width: 3000px;
+    }
+}
+
+/* Медиа-запрос для планшетов (экраны от 769px до 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        max-width: 80%;
+        padding: 10px;
+    }
+    .gif-container img {
+        max-width: 400px;
+    }
 }
