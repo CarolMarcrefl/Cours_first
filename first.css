@@ -4,6 +4,17 @@ body{
     padding: 0;
 
 }
+.enter{
+    display: flex;
+    gap: 40px;
+    margin-top: 28px;
+    justify-content: flex-end;
+}
+.regestration{
+    color: antiquewhite;
+    font-size: 40px;
+}
+
 .valuse{
     display: flex;
     gap: 1vw;
@@ -55,18 +66,15 @@ li{
 .user{
     max-width: 5vw;
     height: auto;
-    margin-left: none;
     margin-right: 10px;
 }
 
 .heart{
     max-width: 5vw;
-    margin-left: none;
     margin-top: 5%;
     height: auto}
 .home{
     max-width: 5vw;
-    margin-left: none;
     margin-right: 30px;
     height: auto}
 
